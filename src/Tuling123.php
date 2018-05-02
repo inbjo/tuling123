@@ -31,7 +31,8 @@ class Tuling123
     }
 
     public function setUserId($id){
-        $this->userId=$id;
+        $this->userId=md5($id);
+        return true;
     }
     
     public function tuling($text, $raw = false){
