@@ -1,14 +1,14 @@
 {
-    "name": "gdali/tuling123-sdk",
+    "name": "faker/tuling123",
     "type": "library",
     "description": "图灵机器人API SDK for PHP",
     "keywords": ["图灵机器人","tuling123"],
     "license": "MIT",
     "authors": [
         {
-            "name": "梁永烨",
-            "email": "one@anvaa.com",
-            "homepage": "https://github.com/gdali"            
+            "name": "Faker",
+            "email": "2345@mail.com",
+            "homepage": "https://github.com/CorePlusPlus"            
         }
     ],
     "require": {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gdali\\Tuling123SDK\\": "src/"
+            "Faker\\Tuling123\\": "src/"
         }
     }   
 }
