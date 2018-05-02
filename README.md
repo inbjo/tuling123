@@ -1,5 +1,5 @@
 # 申明
-    本项目基于https://github.com/gdali/tuling123-sdk的修改
+    本项目是基于 https://github.com/gdali/tuling123-sdk 的修改版
 # tuling123
     图灵机器人API SDK for PHP，支持图灵机器人接口v1.0和v2.0，官方文档：https://www.kancloud.cn/turing/web_api/522992
 # 要求
