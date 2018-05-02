@@ -65,7 +65,6 @@ class Tuling123
         ];
         
         $result = json_decode('['.$this->post('http://openapi.tuling123.com/openapi/api/v2',json_encode($postData)).']',true);
-        echo json_encode($result.PHP_EOL);
 
         if($raw){
             return $result;
